@@ -73,7 +73,7 @@ table {
 
 #header {
 	width: 60%;
-	min-width: 650px;
+	min-width: 750px;
 	margin: 0 auto;
 }
 
@@ -82,16 +82,16 @@ table {
 	float: left;
 	padding: 5px;
 	color: white;
-	font-family: "Fjord One", serif;
-	font-size: 40px;
+	font-family: "Quicksand", Helvetica, sans-serif;
+	font-size: 50px;
 	line-height: 60px;
 }
 
 #linklist {
 	float: right;
 	list-style-type: none;
-	font-family: 'Source Sans Pro', serif;
-	font-size: 24px;
+	font-family: 'Open Sans', serif;
+	font-size: 23px;
 	line-height: 60px;
 	padding: 5px;
 }
@@ -106,6 +106,10 @@ table {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #3D6D7B;
+	-webkit-transition:color .2s linear;
+       -moz-transition: color .2s linear;
+         -o-transition: color .2s linear;
+            transition: color .2s linear;
 }
 
 #linklist a:hover {
@@ -115,7 +119,7 @@ table {
 
 #content {
 	width: 60%;
-	min-width: 650px;
+	min-width: 750px;
 	margin: 0 auto;
 	clear: both;
 	background-image: url(transparency.png);
@@ -123,7 +127,7 @@ table {
 }
 
 body {
-	font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
 	color: #332C3E;
 	line-height: 1.4;
@@ -165,6 +169,10 @@ a {
 	color: #0B486B;
 	text-decoration: none;
 	font-weight: bold;
+		-webkit-transition:color .2s linear;
+       -moz-transition: color .2s linear;
+         -o-transition: color .2s linear;
+            transition: color .2s linear;
 }
 
 a:hover {
