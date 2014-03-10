@@ -67,7 +67,7 @@ table {
 	padding-top: 10px;
 	width: 100%;
 	height: 80px;
-	background-color: black;
+	background-color: #272C28;
 	border-bottom: 10px solid #3D6D7B;
 }
 
@@ -81,7 +81,7 @@ table {
 	vertical-align: middle;
 	float: left;
 	padding: 5px;
-	color: white;
+	color: #6EB5AD;
 	font-family: "Quicksand", Helvetica, sans-serif;
 	font-size: 50px;
 	line-height: 60px;
@@ -114,7 +114,7 @@ table {
 
 #linklist a:hover {
 	text-decoration: underline;
-	color: white;
+	color: #6EB5AD;
 }
 
 #content {
@@ -122,21 +122,23 @@ table {
 	min-width: 775px;
 	margin: 0 auto;
 	clear: both;
-	background-image: url(transparency.png);
+	background-image: url(transparency3.png);
 	padding: 10px 10px 35px 10px;
 }
 
 body {
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
-	color: #332C3E;
+	color: #272C28;
 	line-height: 1.4;
-	background: url(background.png) no-repeat center center fixed; 
+	background-image: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/4192/4192389.png);
+	background-size: 250px;
+	/*background: url(background2.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+*/
 }
 
 h1 {
@@ -166,7 +168,7 @@ img {
 }
 
 a {
-	color: #0B486B;
+	color: #C81604;
 	text-decoration: none;
 	font-weight: bold;
 		-webkit-transition:color .2s linear;
@@ -176,7 +178,7 @@ a {
 }
 
 a:hover {
-	color: #736275;
+	color: #3D6D7B;
 }
 
 .rounded {
@@ -187,10 +189,6 @@ a:hover {
 	float: left;
 	margin: 5px 10px;
 	vertical-align: middle;
-}
-
-.transparent {
-	opacity: 0.7;
 }
 
 .articletitle {
@@ -224,3 +222,20 @@ b {
 a h3 {
 	font-weight: normal;
 }
+
+@media screen and (max-width: 400px) {
+	#linklist {
+		display: none;
+	}
+	#content, #header, #headercontainer, body {
+		min-width: 100%;
+		overflow: hidden;
+	}
+
+	.float {
+		margin: 0 auto;
+		float: none;
+		display: block;
+
+	}
+
